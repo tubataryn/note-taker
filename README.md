@@ -77,3 +77,9 @@ You are required to submit BOTH of the following for review:
 
 - - -
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+
+## LINKS
+
+https://github.com/tubataryn/note-taker
+https://tubataryn.github.io/note-taker/
