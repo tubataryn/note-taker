@@ -11,6 +11,6 @@ require("./apiRoutes")(app);
 require("./htmlRoutes")(app);
 
 //Start Server
-app.listenerCount(PORT, function () {
-    console.lot("App listening on PORT " + PORT)
+app.listen(PORT, function () {
+    console.log("App listening on PORT " + PORT)
 });

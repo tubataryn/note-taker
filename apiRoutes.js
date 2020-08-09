@@ -32,10 +32,10 @@ module.exports = function (app) {
     //API DELETE Requests
     app.delete("/api/notes/:id", function (req, res) {
         fs.readFile("db/db.json", "utf8", function (error, data) {
-            let noteId = req.params.id;
+            let noteID = req.params.id;
             let noteData = JSON.parse(data);
             noteData = noteData.filter(function(note) {
-                if(noteID = note.id) {
+                if(noteID != note.id) {
                     return true;
                 }
                 else {
